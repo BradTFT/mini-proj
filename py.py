@@ -1,4 +1,4 @@
-
+#! doesnt work
 import random
 
 number = input('Enter your number. >>> ')
@@ -9,6 +9,5 @@ while number != guess:
     # reassign `guess`
     guess = random.randrange(1, 10)
     print(guess)
-
-if number == guess:
-    print(f'Was your number {guess}')
+    if number == guess:
+        print(f'Was your number {guess}')
