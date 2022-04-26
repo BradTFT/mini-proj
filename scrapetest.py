@@ -1,5 +1,6 @@
 
 #!not reading imports for some reason
+#!fixed (error 1 see README.md)
 import requests
 from bs4 import BeautifulSoup
 
