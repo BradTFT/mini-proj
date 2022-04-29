@@ -24,3 +24,6 @@ i moved files into folders so they would be more organized and git decided that 
 
 **SOLVED:**
 so it turns out im not very smart and when i moved the files into their organized folders, i put gitignore in the github folder. but i realized after about an hour that gitignore only workings in the directory that its in. so it will only gitignore whats in the github folder. all fixed tho 
+
+**ANOTHER THING:**
+after pushing the commit with the solved error 3 entry, i also realized that the README file needs to be outside of the github folder. so im just gonna delete the github folder and move everything out of it to the main dir.
