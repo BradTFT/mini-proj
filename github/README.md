@@ -16,3 +16,8 @@ Traceback (most recent call last):
 IndexError: list index out of range
 
 fixes have **not** been determined yet.
+
+
+# error 3:
+4.29.22:
+i moved files into folders so they would be more organized and git decided that it needs to track every file in the dir EVEN THOUGH THEY ARE GITIGNORED. not yet sure what i should do becuase i have recreated the gitignore file and nothing has changed.
