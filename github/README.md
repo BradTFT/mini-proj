@@ -21,3 +21,6 @@ fixes have **not** been determined yet.
 # error 3:
 4.29.22:
 i moved files into folders so they would be more organized and git decided that it needs to track every file in the dir EVEN THOUGH THEY ARE GITIGNORED. not yet sure what i should do becuase i have recreated the gitignore file and nothing has changed.
+
+**SOLVED:**
+so it turns out im not very smart and when i moved the files into their organized folders, i put gitignore in the github folder. but i realized after about an hour that gitignore only workings in the directory that its in. so it will only gitignore whats in the github folder. all fixed tho 
