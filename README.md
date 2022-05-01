@@ -27,3 +27,7 @@ so it turns out im not very smart and when i moved the files into their organize
 
 **ANOTHER THING:**
 after pushing the commit with the solved error 3 entry, i also realized that the README file needs to be outside of the github folder. so im just gonna delete the github folder and move everything out of it to the main dir.
+
+
+4.30.22
+**Tomorrow I want to** figure out how to do custom bash commands and make them run so i dont have to remember/dig thru files for my venv command. this is a little side thing but i wanted to log it in this readme. not necciserrily related to this repo
