@@ -11,12 +11,13 @@
 error code:<br />
 
 making a webscraper from a tutorial, finding prices on a webpage. getting this traceback call:
+```
 Traceback (most recent call last):
 
   File "/home/user/randomcode/scraping/scraper.py", line 13, in <module> <br />
     parent = prices[0].parent<br />
 IndexError: list index out of range
-
+```
 fixes have **not** been determined yet.
 
 
@@ -40,7 +41,7 @@ Git just asked me to auth and there was a ton of errors but i think its because 
 
 
 **error output** (sorry if formatting is bad)
-
+```
 $ git push  <br />
 Username for 'https://github.com': BradTFT <br />
 Password for 'https://BradTFT@github.com':  <br />
@@ -53,6 +54,7 @@ Total 3 (delta 2), reused 0 (delta 0)<br />
 remote: Resolving deltas: 100% (2/2), completed with 2 local objects.<br />
 To https://github.com/BradTFT/mini-proj.git<br />
    6a92d29..98c159a  main -> main <br />
+```
 
 
 **FIXED FOR THE MOMENT** <br />
@@ -66,9 +68,10 @@ I followed this stackoverflow thread and reset the remote using this command (gi
 ## error 5: <br /> 
 **5.2.22** <br />
 I solved the inital issue on the webscraper.py file but i have run into another issue. i run the script and i get this error
-
+```
 line 31, in <module> <br />
     items = div.find_all(text=re.compile(gpu)) <br />
 AttributeError: 'NoneType' object has no attribute 'find_all' <br />
+```
 
 currently on the lookout for the solution to this problem
