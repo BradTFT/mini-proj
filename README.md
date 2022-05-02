@@ -14,8 +14,8 @@ making a webscraper from a tutorial, finding prices on a webpage. getting this t
 ```
 Traceback (most recent call last):
 
-  File "/home/user/randomcode/scraping/scraper.py", line 13, in <module> <br />
-    parent = prices[0].parent<br />
+  File "/home/user/randomcode/scraping/scraper.py", line 13, in <module> 
+    parent = prices[0].parent
 IndexError: list index out of range
 ```
 fixes have **not** been determined yet.
@@ -43,17 +43,17 @@ Git just asked me to auth and there was a ton of errors but i think its because 
 **error output** (sorry if formatting is bad)
 ```
 $ git push  <br />
-Username for 'https://github.com': BradTFT <br />
-Password for 'https://BradTFT@github.com':  <br />
-Enumerating objects: 5, done.<br />
-Counting objects: 100% (5/5), done.<br />
-Delta compression using up to 8 threads<br />
-Compressing objects: 100% (3/3), done.<br />
-Writing objects: 100% (3/3), 558 bytes | 139.00 KiB/s, done.<br />
-Total 3 (delta 2), reused 0 (delta 0)<br />
-remote: Resolving deltas: 100% (2/2), completed with 2 local objects.<br />
-To https://github.com/BradTFT/mini-proj.git<br />
-   6a92d29..98c159a  main -> main <br />
+Username for 'https://github.com': BradTFT
+Password for 'https://BradTFT@github.com':  
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 558 bytes | 139.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/BradTFT/mini-proj.git
+   6a92d29..98c159a  main -> main 
 ```
 
 
@@ -69,9 +69,9 @@ I followed this stackoverflow thread and reset the remote using this command (gi
 **5.2.22** <br />
 I solved the inital issue on the webscraper.py file but i have run into another issue. i run the script and i get this error
 ```
-line 31, in <module> <br />
-    items = div.find_all(text=re.compile(gpu)) <br />
-AttributeError: 'NoneType' object has no attribute 'find_all' <br />
+line 31, in <module> 
+    items = div.find_all(text=re.compile(gpu)) 
+AttributeError: 'NoneType' object has no attribute 'find_all' 
 ```
 
 currently on the lookout for the solution to this problem
