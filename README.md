@@ -34,4 +34,22 @@ after pushing the commit with the solved error 3 entry, i also realized that the
 
 
 5.1.22 <br />
-Git just asked me to auth and there was a ton of errors but i think its because the PAC i used to create the origin remote expired today. so i generated a new token and removed the old remote, made a new one, and its fixed. although it pushed all changes before i reset the remote so im not sure what caused it to push bc it was a pretty hard NO that it wasnt going to be pushed without auth. but its fixed. Ok so im pushing the commit to commit this file and its denying me to push. i think i can fix this with the PAC but im going to re-config all my user, ect. full error message at the end of this entry. command line git does not like me right now but i think vscode version control tab will let me thru.
+Git just asked me to auth and there was a ton of errors but i think its because the PAC i used to create the origin remote expired today. so i generated a new token and removed the old remote, made a new one, and its fixed. although it pushed all changes before i reset the remote so im not sure what caused it to push bc it was a pretty hard NO that it wasnt going to be pushed without auth. but its fixed. Ok so im pushing the commit to commit this file and its denying me to push. i think i can fix this with the PAC but im going to re-config all my user, ect. full error message at the end of this entry. command line git does not like me right now but i think vscode version control tab will let me thru. ok so vscode tab lets me push without error but command line is forcing me to enter all this stuff. its whatever ill figure it out soon.
+
+
+**error output** (sorry if formatting is bad)
+
+$ git push
+Username for 'https://github.com': BradTFT
+Password for 'https://BradTFT@github.com': 
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 558 bytes | 139.00 KiB/s, done.
+Total 3 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/BradTFT/mini-proj.git
+   6a92d29..98c159a  main -> main
+
+
