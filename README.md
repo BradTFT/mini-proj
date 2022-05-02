@@ -60,3 +60,15 @@ To https://github.com/BradTFT/mini-proj.git<br />
 I followed this stackoverflow thread and reset the remote using this command (git remote set-url origin https://(token)@github.com/(username)/(repo)). for now it works to push to git from command line. at the moment i dont see any other issues with git command line.
 
 
+
+
+
+## error 5: <br /> 
+**5.2.22** <br />
+I solved the inital issue on the webscraper.py file but i have run into another issue. i run the script and i get this error
+
+line 31, in <module> <br />
+    items = div.find_all(text=re.compile(gpu)) <br />
+AttributeError: 'NoneType' object has no attribute 'find_all' <br />
+
+currently on the lookout for the solution to this problem
