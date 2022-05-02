@@ -18,7 +18,7 @@ Traceback (most recent call last):
     parent = prices[0].parent
 IndexError: list index out of range
 ```
-fixes have **not** been determined yet.
+**SOLVED** see lines 19-23 in webscraping.py
 
 
 ## error 3:
