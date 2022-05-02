@@ -34,7 +34,7 @@ after pushing the commit with the solved error 3 entry, i also realized that the
 4.30.22<br />
 **Tomorrow I want to** figure out how to do custom bash commands and make them run so i dont have to remember/dig thru files for my venv command. this is a little side thing but i wanted to log it in this readme. not necciserrily related to this repo
 
-# error 4
+## error 4
 5.1.22 <br />
 Git just asked me to auth and there was a ton of errors but i think its because the PAC i used to create the origin remote expired today. so i generated a new token and removed the old remote, made a new one, and its fixed. although it pushed all changes before i reset the remote so im not sure what caused it to push bc it was a pretty hard NO that it wasnt going to be pushed without auth. but its fixed. Ok so im pushing the commit to commit this file and its denying me to push. i think i can fix this with the PAC but im going to re-config all my user, ect. full error message at the end of this entry. command line git does not like me right now but i think vscode version control tab will let me thru. ok so vscode tab lets me push without error but command line is forcing me to enter all this stuff. its whatever ill figure it out soon.
 
