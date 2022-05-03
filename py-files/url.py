@@ -2,7 +2,7 @@
 #!basic url shortener
 import pyshorteners
 
-link = input("")
+link = input("Link >>> ")
 shorteners = pyshorteners.Shortener()
 shortlink = shorteners.tinyurl.short(link)
 print(shortlink)
