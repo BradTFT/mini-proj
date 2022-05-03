@@ -1,3 +1,8 @@
 
 #!basic url shortener
-import random
+import pyshorteners
+
+link = input("")
+shorteners = pyshorteners.Shortener()
+shortlink = shorteners.tinyurl.short(link)
+print(shortlink)
