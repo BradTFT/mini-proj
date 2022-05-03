@@ -1,7 +1,15 @@
 #! sucks doesnt work
 
-x = input.replace('a', 'b')
+
+#!i have a new idea for this but im running into a problem with the string = replace + replace where
+#! its printing the replaced and the copy of the original.
+
+
 input = str(input("Message Here: >>> "))
 
-if input == 'a' or input == 'A':
-    print(x)
+
+
+string = input.replace('a ', 'b ') + input.replace('c', 'd') 
+
+if input == input:
+    print(string)
