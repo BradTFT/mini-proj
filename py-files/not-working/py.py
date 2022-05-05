@@ -23,3 +23,5 @@ if again == 'Y' or again == 'y' or inagain == 'Y' or inagain == 'y':
     game()
 else:
     pass
+
+#tbh idek why this works so badly. its such a simple concept which i seem to fuck up
