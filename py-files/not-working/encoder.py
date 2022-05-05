@@ -7,9 +7,10 @@
 
 input = str(input("Message Here: >>> "))
 
+def replaceString():
+    input.replace('a', 'b')
+    input.replace('b',  'c')
 
+string = replaceString()
 
-string = input.replace('a ', 'b ') + input.replace('c', 'd') 
-
-if input == input:
-    print(string)
+print(string)
