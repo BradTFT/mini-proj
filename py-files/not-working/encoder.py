@@ -1,16 +1,19 @@
-#! sucks doesnt work
 
 
-#!i have a new idea for this but im running into a problem with the string = replace + replace where
-#! its printing the replaced and the copy of the original.
+
+#! so i kind of fixed it. just needs to be refined
 
 
-input = str(input("Message Here: >>> "))
+from dataclasses import replace
 
-def replaceString():
-    input.replace('a', 'b')
-    input.replace('b',  'c')
+typeof = int(input('Encode a message(1) or Decode a message(2) >>> '))
 
-string = replaceString()
+if typeof == 1:
+    message = str(input("Message Here: >>> "))
+    new_string = message.replace('a', 'b').replace('c', 'd').replace('e', 'f')
+    print(f'Old message:\n{message}\nNew message: \n{new_string}')
 
-print(string)
+if typeof == 2:
+    message = str(input("Message Here: >>> "))
+    new_string = message.replace('f', 'e').replace('d', 'c').replace('b', 'a')
+    print(f'The message says \n{new_string}')
