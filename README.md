@@ -59,7 +59,7 @@ To https://github.com/BradTFT/mini-proj.git
 
 **FIXED FOR THE MOMENT** <br />
 
-I followed this stackoverflow thread and reset the remote using this command (git remote set-url origin https://(token)@github.com/(username)/(repo)). for now it works to push to git from command line. at the moment i dont see any other issues with git command line.
+I followed this stackoverflow thread and reset the remote using this command ```git remote set-url origin https://(token)@github.com/(username)/(repo)```. for now it works to push to git from command line. at the moment i dont see any other issues with git command line.
 
 
 
