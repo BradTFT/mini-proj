@@ -18,7 +18,7 @@ theLabel.pack()```
 
 ## second tutorial(buttons)
 
-```
+
 bottomFrame = Frame(root)
 bottomFrame.pack(side=BOTTOM)
 
@@ -37,10 +37,10 @@ button1.pack(side=LEFT)
 button2.pack(side=RIGHT)
 button3.pack(side=TOP)
 button4.pack()
+```
+## tutorial 3: fill
 
-#tutorial 3: fill
-
-
+```
 one = Label(root, text="one", fg='white', bg='black')
 two = Label(root, text="two", fg='white', bg='black')
 #fill parameter: fills to the x axis and y fills to the y axis
