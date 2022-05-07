@@ -1,10 +1,10 @@
-learning tkinter these are my notes
+# learning tkinter these are my notes from following (thenewboston) on youtube tutorials
 
 
 
 
-#first tutorial(labels)
-
+## first tutorial(labels)
+```
 #add text is called a label
 #parameters: 
 #Root: is the blank window the label is stored in
@@ -14,11 +14,11 @@ theLabel = Label(root, text='Hello World')
 
 #places widget
 #items (buttons, text, ect are widgets)
-theLabel.pack()
+theLabel.pack()```
 
-#second tutorial(buttons)
+## second tutorial(buttons)
 
-
+```
 bottomFrame = Frame(root)
 bottomFrame.pack(side=BOTTOM)
 
@@ -45,12 +45,13 @@ one = Label(root, text="one", fg='white', bg='black')
 two = Label(root, text="two", fg='white', bg='black')
 #fill parameter: fills to the x axis and y fills to the y axis
 one.pack(fill=X)
-two.pack(fill=Y)
+two.pack(fill=Y)```
 
 
-#tutorial 3: grid layouts and entry(input)
+## tutorial 3: grid layouts and entry(input)
 
 
+```
 label1 = Label(root, text='name')
 label2 = Label(root, text='password')
 
@@ -77,19 +78,21 @@ entry2.grid(row=1, column=1)
 c = Checkbutton(root, text='Keep me logged in')
 
 #spans across 2 columns based off of parameter
-c.grid(columnspan=2)
+c.grid(columnspan=2)```
 
 
-#tutorial 6: function binding to widgets
+## tutorial 6: function binding to widgets
 
 
 
-#event param is alternate method
+```#event param is alternate method
 def printName(event):
     print('Hello World')
 
 button1 = Button(root, text="Clicketh me")
 #event is tied to bind funct
+
+
 button1.bind("<Button-1>", printName)
 button1.pack()
 
@@ -97,9 +100,9 @@ button1.pack()
 #command paramter tells button to run function when clicked
 button1 = Button(root, text="Clicketh me", command=printName)
 
-button1.pack()
+button1.pack()```
 
 
-#tutorial 7: mouse click events.
+## tutorial 7: mouse click events.
 
 
