@@ -112,3 +112,44 @@ button1.pack()
 ## tutorial 7: mouse click events.
 
 
+```
+
+def leftClick(event):
+    print('left')
+
+
+def rightClick(event):
+    print('right')
+
+frame = Frame(root, width=300, height=250)
+frame.bind("<Button-1>", leftClick)
+frame.bind('<Button-3>', rightClick)
+frame.pack()
+```
+
+## tutorial 8: classes with tkinter
+
+```
+#classes in tkinter must contain the parameter master next to self
+#master takes the place of root in the class
+class Buttons:
+    def __init__(self, master):
+        frame = Frame(master)
+        frame.pack()
+
+        self.printButton = Button(frame, text='Printed message', command=self.printMessage)
+        self.printButton.pack(side=LEFT)
+
+        self.quitButton = Button(frame, text='Quit', command=frame.quit)
+        self.quitButton.pack(side=LEFT)
+
+    def printMessage(self):
+        print('i doubted you but this works')
+
+#calls all items in the class with one line
+b = Buttons(root)
+```
+
+## tutorial 9: dropdown menus
+
+
