@@ -75,3 +75,8 @@ AttributeError: 'NoneType' object has no attribute 'find_all'
 ```
 
 currently on the lookout for the solution to this problem
+
+
+## error 6: <br />
+**5.7.22** <br />
+Slight issue with the notes md file for tkinter. headers are not reading and some code blocks arent registering
