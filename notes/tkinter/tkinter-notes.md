@@ -14,7 +14,8 @@ theLabel = Label(root, text='Hello World')
 
 #places widget
 #items (buttons, text, ect are widgets)
-theLabel.pack()```
+theLabel.pack()
+```
 
 ## tutorial 2: buttons
 
@@ -46,7 +47,8 @@ one = Label(root, text="one", fg='white', bg='black')
 two = Label(root, text="two", fg='white', bg='black')
 #fill parameter: fills to the x axis and y fills to the y axis
 one.pack(fill=X)
-two.pack(fill=Y)```
+two.pack(fill=Y)
+```
 
 
 ## tutorial 4: grid layouts and entry(input)
@@ -72,10 +74,11 @@ entry2.grid(row=1, column=1)
 
 #sticky parameter:
 #N orth E ast S outh W est
+```
 
-#tutorial 5: more on grids
+## tutorial 5: more on grids
 
-
+```
 c = Checkbutton(root, text='Keep me logged in')
 
 #spans across 2 columns based off of parameter
@@ -102,7 +105,8 @@ button1.pack()
 #command paramter tells button to run function when clicked
 button1 = Button(root, text="Clicketh me", command=printName)
 
-button1.pack()```
+button1.pack()
+```
 
 
 ## tutorial 7: mouse click events.
