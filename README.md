@@ -79,4 +79,6 @@ currently on the lookout for the solution to this problem
 
 ## error 6: <br />
 **5.7.22** <br />
-Slight issue with the notes md file for tkinter. headers are not reading and some code blocks arent registering
+Slight issue with the notes md file for tkinter. headers are not reading and some code blocks arent registering. <br />
+**FIXED** <br />
+The backticks need to be positioned on the above and below line for everything to register
