@@ -48,7 +48,7 @@ one.pack(fill=X)
 two.pack(fill=Y)```
 
 
-## tutorial 3: grid layouts and entry(input)
+## tutorial 4: grid layouts and entry(input)
 
 
 ```
@@ -78,7 +78,8 @@ entry2.grid(row=1, column=1)
 c = Checkbutton(root, text='Keep me logged in')
 
 #spans across 2 columns based off of parameter
-c.grid(columnspan=2)```
+c.grid(columnspan=2)
+```
 
 
 ## tutorial 6: function binding to widgets
