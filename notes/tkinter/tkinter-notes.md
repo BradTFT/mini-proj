@@ -16,9 +16,9 @@ theLabel = Label(root, text='Hello World')
 #items (buttons, text, ect are widgets)
 theLabel.pack()```
 
-## second tutorial(buttons)
+## tutorial 2: buttons
 
-
+```
 bottomFrame = Frame(root)
 bottomFrame.pack(side=BOTTOM)
 
@@ -38,6 +38,7 @@ button2.pack(side=RIGHT)
 button3.pack(side=TOP)
 button4.pack()
 ```
+
 ## tutorial 3: fill
 
 ```
