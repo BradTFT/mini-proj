@@ -42,7 +42,7 @@ Git just asked me to auth and there was a ton of errors but i think its because 
 
 **error output** (sorry if formatting is bad)
 ```
-$ git push  <br />
+$ git push  
 Username for 'https://github.com': BradTFT
 Password for 'https://BradTFT@github.com':  
 Enumerating objects: 5, done.
