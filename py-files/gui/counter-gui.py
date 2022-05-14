@@ -46,6 +46,8 @@ def addten(event):
     print('10 was added')
     numbers.append(10)
 
+#! add code to make this work. only works with "1"s. need to subtract one
+#!instead of removing it
 def remove1(event):
     print('removed 1 from total')
     numbers.remove(1)
