@@ -2,6 +2,7 @@ from tkinter import *
 root = Tk()
 
 numbers = []
+total0 = 0
 
 def addone(event):
     print('1 was added')
@@ -16,6 +17,9 @@ def addthree(event):
 
 def entered(event):
     print(numbers)
+#* fix this: make it so it adds the numbers in the list (numbers) 
+# and prints the value of the counted numbers as the final number
+
 
 def cleared(event):
     numbers.clear()
