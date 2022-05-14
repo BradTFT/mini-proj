@@ -1,4 +1,5 @@
 
+#!all thats next is figuring out how to get this into a box and out of the terminal
 from tkinter import *
 root = Tk()
 
