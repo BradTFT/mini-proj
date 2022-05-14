@@ -6,19 +6,24 @@ total0 = 0
 
 def addone(event):
     print('1 was added')
-    numbers.append('1')
+    numbers.append(1)
 
 def addtwo(event):
     print('2 was added')
-    numbers.append('2')
+    numbers.append(2)
+
 def addthree(event):
     print('3 was added')
-    numbers.append('3')
+    numbers.append(3)
 
 def entered(event):
-    print(numbers)
+    print(sum(numbers))
+
 #* fix this: make it so it adds the numbers in the list (numbers) 
 # and prints the value of the counted numbers as the final number
+
+#! solved =>
+#changed all numerical function values to integers instead of strings.
 
 
 def cleared(event):
@@ -27,8 +32,8 @@ def cleared(event):
 one = Button(root, text='1')
 two = Button(root, text='2')
 three = Button(root, text='3')
-enter = Button(root, text='Show tracked')
-clear = Button(root, text='Clear tracked')
+enter = Button(root, text='Show total')
+clear = Button(root, text='Clear')
 
 one.bind('<Button-1>', addone)
 two.bind('<Button-1>', addtwo)
