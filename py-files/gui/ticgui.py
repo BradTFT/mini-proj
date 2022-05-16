@@ -1,6 +1,6 @@
 from tkinter import *
 import tkinter as tk
-from tkinter.tix import COLUMN
+
 #! basic click detection is all set. Just need to position everything to a grid.
 #! i think i have to make a seperate funct for every button. shouldnt be an issue.
 #* ^^^ there is prob a better way to do it but its fine it works and thats all that matters.
