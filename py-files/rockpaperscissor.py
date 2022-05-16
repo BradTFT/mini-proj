@@ -27,13 +27,12 @@ def game2():
     ready = input('Ready to play? >>> ')
     chose = int(input('Chose your input: Rock(1), Paper(2), Scissor(3) >>> '))
     #computers choice
-    mychoice = int(random.choice(actions))
+    mychoice = random.choice(actions)
     win = 'You Won'
     loss = 'You lost'
     tie = 'We tied'
-
-#first issue was indentation. all of the
-   if chose == 1:
+#! SOLVED: the computer was chosing from a list of strings as Rock Paper or Scissor instead of numbers.
+    if chose == 1:
         time.sleep(1)
         print('You chose Rock')
     elif chose == 2:
@@ -57,31 +56,31 @@ def game2():
         time.sleep(1) 
         #! logic is yet to work. ill dig deeper tmr
 
-        if mychoice == '1' and chose == 1:
+        if mychoice == 'Rock' and chose == 1:
             time.sleep(1)
             print(tie)
-        elif mychoice == 1 and chose == 2:
+        elif mychoice == 'Rock' and chose == 2:
             time.sleep(1)
             print(win)
-        elif mychoice == 1 and chose == 3:
+        elif mychoice == 'Rock' and chose == 3:
             time.sleep(1)
             print(loss)
-        elif mychoice == 2 and chose == 1:
+        elif mychoice == 'Paper' and chose == 1:
             time.sleep(1)
             print(loss)
-        elif mychoice == 2 and chose == 2:
+        elif mychoice == 'Paper' and chose == 2:
             time.sleep(1)
             print(tie)
-        elif mychoice == 2 and chose == 3:
+        elif mychoice == 'Paper' and chose == 3:
             time.sleep(1)
             print(win)      
-        elif mychoice == 3 and chose == 1:
+        elif mychoice == 'Scissor' and chose == 1:
             time.sleep(1)
             print(win)
-        elif mychoice == 3 and chose == 2:
+        elif mychoice == 'Scissor' and chose == 2:
             time.sleep(1)
             print(loss)
-        elif mychoice == 3 and chose == 3:
+        elif mychoice == 'Scissor' and chose == 3:
             time.sleep(1)
             print(tie)
         else:
