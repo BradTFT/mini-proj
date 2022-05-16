@@ -9,85 +9,85 @@ root = Tk()
 
 def lclick1(event):
     button1.config(text='X')
-    print('this button is now X')
+
 
 
 def rclick1(event):
     button1.config(text='O')
-    print('this button is now O')
+
 
 def lclick2(event):
     button2.config(text='X')
-    print('this button is now X')
+
 
 
 def rclick2(event):
     button2.config(text='O')
-    print('this button is now O')
+
 
 def lclick3(event):
     button3.config(text='X')
-    print('this button is now X')
+
 
 
 def rclick3(event):
     button3.config(text='O')
-    print('this button is now O')
+
 
 def lclick4(event):
     button4.config(text='X')
-    print('this button is now X')
+
 
 
 def rclick4(event):
     button4.config(text='O')
-    print('this button is now O')
+
 
 def lclick5(event):
     button5.config(text='X')
-    print('this button is now X')
+
 
 
 def rclick5(event):
     button5.config(text='O')
-    print('this button is now O')
+
 
 def lclick6(event):
     button6.config(text='X')
-    print('this button is now X')
+
 
 
 def rclick6(event):
     button6.config(text='O')
-    print('this button is now O')
+
 
 def lclick7(event):
     button7.config(text='X')
-    print('this button is now X')
+
 
 
 def rclick7(event):
     button7.config(text='O')
-    print('this button is now O')
+
 
 
 def lclick8(event):
     button8.config(text='X')
-    print('this button is now X')
+
 
 
 def rclick8(event):
     button8.config(text='O')
-    print('this button is now O')
+
 
 def lclick9(event):
     button9.config(text='X')
-    print('this button is now X')
+
 
 
 def rclick9(event):
     button9.config(text='O')
-    print('this button is now O')
+
 
 def reset(event):
     button1.config(text='')
@@ -100,6 +100,16 @@ def reset(event):
     button8.config(text='')
     button9.config(text='')
 
+#how to play:
+def helpButton(event):
+    helplabel.grid(row=5, column=1)
+
+def removeHelp(event):
+    helplabel.destroy()
+
+helplabel = Label(root, text='To play: \nLeft click on a button on the grid to place an X mark. \nRight click on a button on the grid to place an O mark. \nThe first person to get three in a row in any direction wins. \nClick reset to reset the grid \nRight click the "Help" button to remove this message and start playing')
+helpbutton = Button(root, text='Help')
+
 button1 = Button(root)
 button2 = Button(root)
 button3 = Button(root)
@@ -110,6 +120,9 @@ button7 = Button(root)
 button8 = Button(root)
 button9 = Button(root)
 resetbutton = Button(root, text="RESET")
+
+helpbutton.bind('<Button-1>', helpButton)
+helpbutton.bind('<Button-3>', removeHelp)
 
 resetbutton.bind('<Button-1>', reset)
 
@@ -154,4 +167,5 @@ button7.grid(row=2)
 button8.grid(row=2, column=1)
 button9.grid(row=2, column=2)
 resetbutton.grid(row=3, column=1)
+helpbutton.grid(row=4, column=1)
 root.mainloop()
