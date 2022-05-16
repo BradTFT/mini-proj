@@ -54,7 +54,7 @@ def game2():
         time.sleep(1)
         print(f'I chose {mychoice}')
         time.sleep(1) 
-        #! logic is yet to work. ill dig deeper tmr
+        #! FIXED SEE LINE 34
 
         if mychoice == 'Rock' and chose == 1:
             time.sleep(1)
