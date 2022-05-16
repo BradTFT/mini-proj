@@ -10,16 +10,16 @@
 
 
 ###Ideas(GUI):
-☐ tic-tac-toe (left click on grid is X and right is O) @in-progress
+✔ tic-tac-toe (left click on grid is X and right is O) @done (5/16/2022, 12:30:48 PM)
 
 
 
 ###To fix:
-☐ Fix tic-tac-toe (change button text on click) @in-progress
+✔ Fix tic-tac-toe (change button text on click) @done (5/16/2022, 12:10:54 PM)
 
 
 ###tic-tac-toe:
-☐ change text on click
-☐ allighn to grid
+✔ change text on click @done (5/16/2022, 12:11:04 PM)
+✔ allighn to grid @done (5/16/2022, 12:30:50 PM)
 ☐ make look good
 ☐ refine
