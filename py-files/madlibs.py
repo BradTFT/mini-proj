@@ -2,6 +2,12 @@
 
 import random
 
+#!attempting to fix
+
+start = input('Press ENTER to start')
+
+#entries:
+'''
 first = input()
 second = input()
 third = input()
@@ -9,16 +15,11 @@ fourth = input()
 fifth = input()
 sixth = input()
 seventh = input()
-
-do_you_know = input('If you know how MadLibs works, enter(y). If not, enter(n). >>> ')
-
-
+'''
 #i want multiple different stories. so each will be its own function and the random module will chose one
 
 
-#inital game function
-def game():
-    pass
+
     
 
 
@@ -42,11 +43,10 @@ def game4():
 def game5():
     pass
 
-
-
-if do_you_know == 'y' or do_you_know == 'Y':
-    game()
-elif do_you_know == 'n' or do_you_know == 'Y':
-    print('To play MadLibs, follow the instructions and pick a word that fulfuls the catagory stated. at the end of the game, you will have a story with the words you chose')
-else: 
+def game6():
     pass
+
+#!trying to chose a random function but its calling all of them instead
+games_list = [game1(), game2(), game3(), game4(), game5(), game6()]
+
+random.choice(games_list)
