@@ -4,3 +4,5 @@
 /env
 /rng
 *.json
+*.vscode
+/vscode*
