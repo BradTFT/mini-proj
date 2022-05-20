@@ -3,6 +3,14 @@
 **When errors occur, i will be placing them here with an explanation for the prob and solution**
 **also may be used to log changes or other things idk**
 
+# If you would like to use any of these files: <br />
+Fork this repository <br />
+Clone the repository to your system `git clone https://github.com/<your-github-username>/mini-proj.git` <br />
+cd to the folder the file is in <br />
+run `python3 <filename>.py` or `node <filename>.ts` or `node <filename>.js` <br />
+**DONT FORGET TO REPLACE** "your-github-username" **WITH YOUR ACTUAL USERNAME**
+
+
 ## error 1:
 4.25.22: attempting to learn to make webscrapers. bs4 and requests were getting error "reportMissingModuleSource". after some reading on many forums, i came across this: (https://exerror.com/import-flask-could-not-be-resolved-from-source-pylance/). it states to check your venv root. turns out vscode thinks i am in a venv when the venv was in a different directory so all installs went to other venv.
 
