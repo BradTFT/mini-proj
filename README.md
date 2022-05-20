@@ -4,15 +4,15 @@
 **also may be used to log changes or other things idk**
 
 # If you would like to use any of these files: <br />
-<br />
+
 Fork this repository <br />
-<br />
+
 Clone the repository to your system `git clone https://github.com/<your-github-username>/mini-proj.git` <br />
-<br />
+
 cd to the folder the file is in <br />
-<br />
+
 run `python3 <filename>.py` or `node <filename>.ts` or `node <filename>.js` <br />
-<br />
+
 **DONT FORGET TO REPLACE** "your-github-username" **WITH YOUR ACTUAL USERNAME**
 <br />
 
