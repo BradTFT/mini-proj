@@ -1,6 +1,15 @@
 import random
 #idea is that the functions are going to ask for input for each replacable word and then stitch it together and print the result
 #games
+#color libs
+import colorama
+from colorama import Fore, Back, Style
+#init function
+colorama.init(autoreset=True)
+#resets color inside of {} f string
+foreReset = Fore.RESET
+backReset = Back.RESET
+
 def game1():
     pass
 
