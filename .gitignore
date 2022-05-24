@@ -6,3 +6,4 @@
 *.json
 *.vscode
 /vscode*
+py/__pycache__*
