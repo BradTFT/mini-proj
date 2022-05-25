@@ -54,10 +54,14 @@ def game1():
     twenty_colored = Fore.RED + twenty
     twentyOne_colored = Fore.RED + twentyOne
     print(f'''
-    Lets build a snowman,” said {one_colored}{foreReset}. First we need to have a {two_colored}{foreReset} snowstorm. As we watched the snow fall {three_colored}{foreReset} from the sky it made me so hungry that I could eat {four_colored}{foreReset}.
-    Once there was enough snow, we went outside to build the {five_colored}{foreReset} snowman ever. We grabbed our {six_colored}{foreReset} that was {seven_colored}{foreReset} and {eight_colored}{foreReset}.
-    We began rolling the snow {nine_colored}{foreReset} until we couldn’t lift it anymore. We did this again and again until there were {ten_colored}{foreReset} {eleven_colored}{foreReset} on top of each other. We {twelve_colored}{foreReset} to find {thirteen_colored}{foreReset} in the road,
-    but could only find {fourteen_colored}{foreReset}. The eyes were made of {fifteen_colored}{foreReset}, the nose was a {sixteen_colored} {seventeen_colored} {eigheten_colored}.{foreReset}Mom gave us her old {ninetten_colored}{foreReset} to use for the top of his head. We stepped back and said this is the {twenty_colored}{foreReset} snowman we have ever made and we called him {twentyOne_colored}{foreReset}.''')
+    Lets build a snowman,” said {one_colored}{foreReset}. First we need to have a {two_colored}{foreReset} snowstorm.
+    As we watched the snow fall {three_colored}{foreReset} from the sky it made me so hungry that I could eat {four_colored}{foreReset}.
+    Once there was enough snow, we went outside to build the {five_colored}{foreReset} snowman ever. 
+    We grabbed our {six_colored}{foreReset} that was {seven_colored}{foreReset} and {eight_colored}{foreReset}.
+    We began rolling the snow {nine_colored}{foreReset} until we couldn’t lift it anymore. We did this again and again until there were {ten_colored}{foreReset} {eleven_colored}{foreReset} on top of each other. 
+    We {twelve_colored}{foreReset} to find {thirteen_colored}{foreReset} in the road,
+    but could only find {fourteen_colored}{foreReset}. The eyes were made of {fifteen_colored}{foreReset}, the nose was a {sixteen_colored} {seventeen_colored} {eigheten_colored}.
+    {foreReset}Mom gave us her old {ninetten_colored}{foreReset} to use for the top of his head. We stepped back and said this is the {twenty_colored}{foreReset} snowman we have ever made and we called him {twentyOne_colored}{foreReset}.''')
 #working i just messed my numbers up
 def game2():
     pass
