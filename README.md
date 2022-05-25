@@ -99,3 +99,8 @@ The backticks need to be positioned on the above and below line for everything t
 
 **5.15.22** <br />
 100th Commit!!
+
+
+
+**5.24.22** <br />
+I just accidentally deleted the contents of my venv folder and my backup "env" folder. this is a major loss.
