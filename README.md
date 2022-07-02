@@ -104,3 +104,7 @@ The backticks need to be positioned on the above and below line for everything t
 
 **5.24.22** <br />
 I just accidentally deleted the contents of my venv folder and my backup "env" folder. this is a major loss.
+
+
+**7.1.22** <br />
+Welp i just accidentally reset my entire linux environment and lost everything that is not inside of a git repository. this really sucks. its not that big of a deal because everything i care abt is in a repo, but i did lose all my preferances and packages in vscode, pip, and npm. not too bad but just enough of an incovienence 
