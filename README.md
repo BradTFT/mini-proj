@@ -107,4 +107,4 @@ I just accidentally deleted the contents of my venv folder and my backup "env" f
 
 
 **7.1.22** <br />
-Welp i just accidentally reset my entire linux environment and lost everything that is not inside of a git repository. this really sucks. its not that big of a deal because everything i care abt is in a repo, but i did lose all my preferances and packages in vscode, pip, and npm. not too bad but just enough of an incovienence 
+Welp i just accidentally reset my entire linux environment and lost everything that is not inside of a git repository. this really sucks. its not that big of a deal because everything i care abt is in a repo, but i did lose all my preferances and packages in vscode, pip, and npm. not too bad but just enough. i lost all my notes, all my workspace saves and my troubleshooting notes. at least i still have my browser though. 
