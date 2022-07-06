@@ -110,3 +110,7 @@ I just accidentally deleted the contents of my venv folder and my backup "env" f
 Welp i just accidentally reset my entire linux environment and lost everything that is not inside of a git repository. this really sucks. its not that big of a deal because everything i care abt is in a repo, but i did lose all my preferances and packages in vscode, pip, and npm. not too bad but just enough. i lost all my notes, all my workspace saves and my troubleshooting notes. at least i still have my browser though. 
 
 Also just realised that i now have a duplicate of every single file because of a cloning mistake. better to have 2 than one i guess...
+
+
+**7.5.22** <br />
+just noticed that this random copy of my entire repository is in the folder and it just projected to the main repo. not a big deal i can gitignore it but just funny. prob cuz it was cloned
