@@ -6,3 +6,5 @@ venv/
 *.vscode
 /vscode*
 py/__pycache__*
+mini-proj/
+mini-proj
